@@ -1,0 +1,32 @@
+[
+    {
+    "name": "Ридли Скотт",
+    "photo": "/static/img/female_teen.jpg",
+    "speciality": "астрогеолог, программист"
+    },
+    {
+    "name": "Энди Уир",
+    "photo": "/static/img/female_adult.jpg",
+    "speciality": "геолог"
+    },
+    {
+    "name": "Марк Уотни",
+    "photo": "/static/img/female_teen.jpg",
+    "speciality": "программист"
+    },
+    {
+    "name": "Венката Капур",
+    "photo": "/static/img/male_adult.jpg",
+    "speciality": "капитан, программист"
+    },
+    {
+    "name": "Тедди Сандерс",
+    "photo": "/static/img/male_adult.jpg",
+    "speciality": "сис-админ, программист"
+    },
+    {
+    "name": "Шон Бин",
+    "photo": "/static/img/male_teen.jpg",
+    "speciality": "астрогеолог, сис-админ"
+    }
+]

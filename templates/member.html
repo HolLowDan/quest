@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set len = members | count %}
+{% set a = range(0, len) | random %}
+{% set member = members[a] %}
+
+<div class="card" style="width: 40rem;">
+  <img src="{{ member["photo"] }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{member["name"]}}</h5>
+    <p class="card-text">{{ member["speciality"] }}</p>
+  </div>
+</div>
+
+{% endblock %}
